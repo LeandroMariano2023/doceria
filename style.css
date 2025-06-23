@@ -1,0 +1,1131 @@
+@media screen and (min-width: 400px) {
+	.containerInfo .cardsInfo {
+		display: flex;
+
+		align-items: center;
+	}
+
+	main .sobreNos {
+		display: flex;
+		justify-content: center;
+	}
+
+	.sobreNos .sobreNos-itens {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.sobreNos .sobreNos-imagem {
+		display: flex;
+	}
+
+	.sobreNos .sobreNos-imagem img {
+		margin: 0 auto;
+		width: 390px;
+	}
+
+	.sobreNos .sobreNos-texto {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 350px;
+		padding-left: -50px;
+	}
+
+	main .voceSabia {
+		margin-bottom: 70px;
+	}
+
+	main .candyInformations {
+		position: relative;
+		top: 0;
+		left: 0;
+		margin: 10px auto;
+		text-align: center;
+		align-items: center;
+		padding-bottom: 42px;
+	}
+
+	main .candyImage figure img {
+		width: 400px;
+	}
+
+	.doces .doces-continer {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.encomendas .encomendasItens {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.encomendas .encomendaImagem img {
+		margin: 0 auto;
+		width: 390px;
+	}
+}
+
+@media screen and (min-width: 640px) {
+	main #home h1 {
+		width: 497px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.sobreNos .sobreNos-itens {
+		flex-direction: row;
+	}
+
+	.doces .docesContainer {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	main .initialText {
+		align-items: start;
+	}
+
+	main #home h1 {
+		text-align: start;
+	}
+	main #home {
+		padding: 50px 0px;
+	}
+
+	#menuDesktop .container {
+		justify-content: space-between;
+	}
+
+	.container .homeClass {
+		flex-direction: row;
+	}
+
+	header #menuDesktop {
+		display: block;
+	}
+
+	#home .buttonFixed {
+		position: fixed;
+		left: 0;
+	}
+
+	.containerInfo .cardsInfo {
+		display: flex;
+		justify-content: center;
+	}
+
+	.sobreNos .sobreNos-texto {
+		width: 482px;
+		align-items: start;
+	}
+
+	main .candyBanner {
+		margin-left: 320px;
+	}
+	main .candyInformations {
+		position: absolute;
+		bottom: 10px;
+		left: -310px;
+		text-align: start;
+		align-items: start;
+		padding-left: 17px;
+		padding-bottom: 42px;
+	}
+
+	main .candyImage figure img {
+		width: 679px;
+	}
+
+	.encomendas .encomendasItens {
+		flex-direction: row;
+	}
+
+	.encomendas .encomendasItens article p{
+		text-align: start;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	#home #buttonFixed {
+		display: block;
+	}
+
+	#home .gotaLeft {
+		display: block;
+	}
+
+	#home .gotaRight {
+		display: block;
+	}
+
+	main .containerInfo {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-left: 300px;
+	}
+
+	.containerInfo .cardsInfo {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	main .sobreNos {
+		margin-top: 1rem;
+	}
+
+	.sobreNos .gotaSobreNosLeft {
+		display: block;
+		left: -80px;
+	}
+
+	.sobreNos .gotaSobreNosRight {
+		display: block;
+	}
+
+	.sobreNos .sobreNos-itens {
+		gap: 11px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.sobreNos .sobreNos-texto {
+		text-align: justify;
+	}
+
+	main .voceSabia-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	main .gotaLeftDoces {
+		display: block;
+	}
+
+	.doces .doces-continer {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: center;
+	}
+
+	.doces .doces-desciptionItens ul li {
+		padding: 5px;
+	}
+
+	.encomendas .encomendasItens {
+		gap: 11px;
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+@media screen and (min-width: 1536px) {
+}
+
+/*Geral Styles ---------------------------------------------------------------*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	width: 989px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.browBtn {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	background-color: #562b00;
+	border: 2px solid #562b00;
+	color: white;
+	font-family: "Coustard";
+	font-weight: 400;
+	font-size: 20px;
+	padding: 10px 18px;
+	border-radius: 999px;
+	cursor: pointer;
+}
+
+.browBtn a {
+	color: #ffffff;
+}
+
+.browBtn:hover {
+	transition-duration: .3s;
+	background-color: #864300;
+}
+
+.whiteBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+	background-color: white;
+	border: 2px solid #562b00;
+	color: #e0712c;
+	font-family: "Coustard";
+	font-weight: 400;
+	font-size: 20px;
+	padding: 10px 18px;
+	border-radius: 990px;
+	cursor: pointer;
+}
+
+.whiteBtn a {
+	color: #e0712c;
+}
+
+.whiteBtn:hover {
+	background-color: #562b00;
+
+	transition-duration: .3s;
+	color: white;
+}
+
+.whiteBtn:hover img {
+	filter: brightness(0) invert(1);
+}
+
+/*Menu Desktop ---------------------------------------------------------------*/
+
+#menuDesktop {
+	display: none;
+}
+
+.headerContact {
+	display: flex;
+	justify-content: center;
+	background-color: #562b00;
+	padding: 10px 0px;
+}
+
+.headerContact h6 {
+	font-family: "Coustard", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1rem;
+	color: white;
+}
+
+.headerContactText {
+	display: flex;
+	align-items: center;
+	gap: 3px;
+}
+
+.headerContactText img {
+	width: 17px;
+}
+
+nav {
+	background-color: #562b00;
+	padding: 19px 25px;
+	width: max-content;
+	border-radius: 12px;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+nav ul li a {
+	color: white;
+}
+
+nav ul li a:hover {
+	color: #e0712c;
+	transition-duration: .5s;
+}
+
+nav ul li {
+	font-family: "Coustard", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1rem;
+	list-style: none;
+}
+
+.sphere {
+	width: 10px;
+	height: 10px;
+	background-color: #e0712c;
+	border-radius: 999px;
+}
+
+.navegation {
+	padding: 13px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 4px 4px 0px #00000042;
+}
+
+#home {
+	background-image: url("/assets/img/bgHome.png");
+	padding: 0px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+}
+
+#home h1 {
+	text-align: center;
+	font-family: "Oleo Script", system-ui;
+	font-weight: 400;
+	color: #562b00;
+	font-size: 3.75rem;
+	line-height: 60px;
+	margin-bottom: 25px;
+}
+
+.gotaLeft {
+	position: absolute;
+	left: -50px;
+	display: none;
+}
+
+.gotaRight {
+	position: absolute;
+	right: -50px;
+	top: 1rem;
+	display: none;
+}
+
+.homeButton {
+	padding: 15px 29px;
+	color: #e0712c;
+	font-size: 1.25rem;
+	background-color: transparent;
+	font-family: "Coustard", serif;
+	border: solid 2px #562b00;
+	border-radius: 999px;
+}
+
+.homeButton:hover {
+	color: #ffffff;
+	border: solid 2px #562b00;
+	background-color: #562b00;
+	transition-duration: .2s;
+}
+
+.initialText {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.homeClass {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.home img {
+	width: 350px;
+}
+
+.homeBrigadeiro {
+	position: relative;
+}
+
+.gota img {
+	width: 90px;
+}
+
+.gota {
+	position: absolute;
+	top: 0px;
+	right: -20px;
+}
+
+/*Button Fixed ---------------------------------------------------------------*/
+
+#buttonFixed {
+	display: none;
+}
+
+.buttonFixed {
+	width: 293px;
+	height: 82px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.226);
+	padding-left: 90px;
+	background-color: #e0712c;
+	border-radius: 0px 999px 999px 0px;
+	position: relative;
+	right: 50rem;
+	color: white;
+	cursor: pointer;
+	font-family: "Inter", sans-serif;
+	margin-top: 154px;
+	z-index: 1;
+}
+
+.buttonFixed p {
+	font-size: 16px;
+	font-weight: light;
+}
+
+.buttonFixed a {
+	color: white;
+	font-size: 24px;
+	font-weight: 900;
+}
+
+/*Cards Info -----------------------------------------------------------------*/
+
+#containerInfo {
+	padding: 50px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.containerItems {
+	border-bottom: 4px solid #e0712c;
+	width: 100%;
+}
+
+.cardsInfo {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.cardInfoDetails {
+	width: 314px;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	font-family: "Coustard", serif;
+	color: #562b00;
+	border-radius: 12px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 25%);
+}
+
+.cardInfoDetails img {
+	width: 85px;
+	padding: 19px 19px 0;
+}
+
+.cardInfoDetails h3 {
+	font-size: 20px;
+	padding-bottom: 19px;
+	padding-top: 19px;
+	padding-left: 16px;
+	padding-right: 26px;
+	font-weight: 400;
+}
+
+.cardInfoDetails p {
+	text-align: justify;
+	font-weight: 400;
+	font-size: 16px;
+	width: 290px;
+	height: 136px;
+	padding-left: 16px;
+}
+
+.subtitleInfo {
+	margin-top: 24px;
+	margin-bottom: 95px;
+	text-align: center;
+}
+
+.subtitleInfo h3 {
+	font-family: "Coustard", serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #e0712c;
+}
+
+/* ------------sobre nos------------ */
+
+.sobreNos {
+	margin-top: 47px;
+}
+
+.gotaSobreNosLeft {
+	position: absolute;
+	top: 160px;
+	display: none;
+}
+
+.gotaSobreNosRight {
+	position: absolute;
+	top: 150px;
+	right: -50px;
+	width: 173px;
+	height: 214px;
+	display: none;
+}
+
+.sobreNos-itens {
+	display: flex;
+	justify-content: center;
+	gap: 11px;
+}
+
+.sobreNos-texto {
+	width: 511px;
+	text-align: justify;
+}
+
+.sobreNos-title h2 {
+	font-family: "Oleo Script", system-ui;
+	font-size: 85px;
+	color: #562b00;
+	font-weight: 400;
+}
+
+.sobreNos-texto p {
+	font-family: "Coustard", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #562b00;
+}
+
+/*Você Sabia? ----------------------------------------------------------------*/
+
+.voceSabia {
+	background-image: url(assets/img/voceSabiaFundo.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 104px 0;
+}
+
+.voceSabia-itens {
+	padding: 80px 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+.voceSabia-itens h2 {
+	font-family: "Oleo Script", system-ui;
+	font-size: 48px;
+	font-weight: 400;
+}
+
+.voceSabia-itens h3 {
+	font-family: "Coustard", serif;
+	font-size: 32px;
+	font-weight: 400;
+	margin-bottom: 44px;
+}
+
+.voceSabia-itens p {
+	font-size: 20px;
+	font-family: "Coustard", serif;
+	font-weight: 400;
+	max-width: 821px;
+}
+
+/*Doces ----------------------------------------------------------------------*/
+
+#candyBanner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.candyBanner {
+	display: flex;
+	align-items: center;
+}
+
+.candyInformations h6 {
+	font-family: "Coustard";
+	font-weight: 400;
+	font-size: 20px;
+	color: white;
+	padding-top: 10px;
+}
+
+.candyInformations ul {
+	display: flex;
+	flex-direction: column;
+	padding-top: 21px;
+	gap: 31px;
+}
+
+.candyInformations ul li {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	font-family: "Coustard";
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+}
+
+.candyImage {
+	position: relative;
+}
+
+.candyImages img {
+	display: block;
+}
+
+.candyInformations {
+	display: flex;
+	flex-direction: column;
+	background-color: #562b00;
+	width: 356px;
+	padding: 17px;
+	border-radius: 12px;
+	position: absolute;
+	bottom: 10px;
+	left: -310px;
+	padding-bottom: 42px;
+}
+
+.candyButtons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 56px;
+	gap: 12px;
+}
+/*---------------------------------------- INFANCIA ---------------------------------------------------------------------------------------------- */
+.infancia {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	background-image: url(assets/img/fundo_infancia.png);
+	margin-top: 105px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.infanciaPosts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.infancia h2 {
+	font-family: "Oleo Script", system-ui;
+	color: white;
+	font-size: 48px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 60px;
+	padding-bottom: 20px;
+}
+
+.infanciaPosts article {
+	width: 232px;
+	background: #ffffff;
+	border-radius: 12px;
+}
+
+.infanciaPosts article h3 {
+	font-family: "Oleo Script", system-ui;
+	color: #7a3e18;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	padding: 15px;
+}
+
+/* -------------------brigadeiros------------------ */
+
+#brigadeiros {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.brigadeiroContainer {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+
+.brigadeiroItens {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 104px;
+}
+
+.brigadeiroItens img {
+	width: 200px;
+	height: 200px;
+}
+
+.brigadeiroList {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.textAndBrigadeiros {
+	width: 100vw;
+}
+
+.brigadeiroTitle {
+	font-family: "Oleo Script", system-ui;
+	text-align: center;
+}
+
+.brigadeiroTitle h2 {
+	font-size: 85px;
+	color: #562b00;
+	font-weight: 400;
+}
+
+.brigadeiroTitle h3 {
+	font-size: 48px;
+	color: #e0712c;
+	font-weight: 400;
+}
+
+.brigadeiroList .text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 290px;
+	font-family: "Coustard", serif;
+	color: #562b00;
+	font-weight: 400;
+}
+
+.brigadeiroList .text h3 {
+	font-size: 36px;
+	text-align: center;
+}
+
+.brigadeiroList .text p {
+	width: 290px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.brigadeiroBtn {
+	padding-top: 73px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 11px;
+	padding-bottom: 69px;
+	border-bottom: 4px solid #e0712c;
+	width: 100%;
+}
+
+/* ----------------encomendas --------------------- */
+.encomendas {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 109px;
+	padding-top: 69px;
+}
+
+.encomendasBanner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.encomendaText {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+.encomendaText h2 {
+	font-size: 85px;
+	font-family: "Oleo Script", system-ui;
+	color: #562b00;
+	font-weight: 400;
+	text-align: center;
+}
+
+.encomendaText h3 {
+	font-size: 48px;
+	font-family: "Oleo Script", system-ui;
+	color: #e0712c;
+	text-align: center;
+	font-weight: 400;
+}
+
+.encomendaText p {
+	font-family: "Coustard", serif;
+	font-size: 16px;
+	text-align: center;
+	color: #562b00;
+	font-weight: 400;
+	padding-bottom: 40px;
+}
+
+.encomendasItens {
+	display: flex;
+	justify-content: center;
+	gap: 11px;
+	align-items: center;
+}
+
+.encomendasItens article {
+	text-align: center;
+}
+
+article p {
+	width: 400px;
+	font-family: "Coustard", serif;
+	font-size: 16px;
+	color: #562b00;
+	font-weight: 400;
+	padding: 20px;
+
+}
+
+article span p {
+	color: #e0712c;
+	font-weight: 400;
+	padding-bottom: 40px;
+}
+
+.encomendaBtn {
+	display: flex;
+	align-items: center;
+}
+/* -----------delivery------------------------ */
+.delivery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #562b00;
+}
+
+.containerDelivery {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.deliveryText {
+	padding-top: 72px;
+	color: white;
+}
+
+.deliveryText h2 {
+	font-family: "Oleo Script", system-ui;
+	font-size: 48px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.deliveryText h3 {
+	font-family: "Coustard", serif;
+	font-size: 32px;
+	font-weight: 400;
+	text-align: center;
+	padding-bottom: 32px;
+}
+
+.deliveryBtn{
+	padding-bottom:52px ;
+}
+/* --------promoção------------------------ */
+.promocaoTexto {
+	text-align: center;
+	font-family: "Oleo Script", system-ui;
+}
+
+.promocaoTexto h2 {
+	font-size: 85px;
+	color: #562b00;
+}
+
+.promocaoTexto h3 {
+	font-size: 48px;
+	color: #e0712c;
+}
+
+/* --------------localização----------------- */
+.localizacao {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.localizacaoContato {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.localizacaoContato h2 {
+	font-family: "Oleo Script", system-ui;
+	font-size: 85px;
+	font-weight: 400;
+	color: #562b00;
+}
+
+.localizacaoContato h3 {
+	font-family: "Oleo Script", system-ui;
+	font-size: 48px;
+	font-weight: 400;
+	color: #e0712c;
+}
+
+.localizacaoContato p {
+	font-family: "Coustard", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #562b00;
+	padding-bottom: 23px;
+}
+
+.localizacaoMapa {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.localizacaoMapa iframe {
+	max-width: 990px;
+	height: 481px;
+	border-radius: 12px;
+	padding-top: 54px;
+	padding-bottom: 29px;
+}
+
+.localizacaoMapa a {
+	font-family: "Coustard", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #562b00;
+}
+/* ----------------- footer-------------- */
+
+footer {
+	padding-top: 24px;
+	margin-top: 46px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 25%);
+}
+
+.containerLista {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 137px;
+}
+
+.containerLista img {
+	width: 129px;
+	height: 99px;
+}
+
+.footerLista h2 {
+	font-family: "Coustard", serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: #562b00;
+}
+
+.lineFooter {
+	width: 72px;
+	height: 2px;
+	background-color: #e0712c;
+	margin-top: 7px;
+	margin-bottom: 18px;
+}
+
+.footerLista li,
+.footerLista p {
+	font-family: "Coustard", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #562b00;
+}
+
+.footerLista li a {
+	color: #562b00;
+}
+
+.footerLista li a:hover {
+	color: #e0712c;
+}
+
+.footerLista {
+	font-family: "Coustard", serif;
+}
+
+/* --------footerFooter---------- */
+
+.footerFooter {
+	width: 100%;
+	margin-top: 24px;
+	background-color: #562b00;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footerFooter p {
+	font-family: "Coustard", serif;
+	font-size: 16px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.footerFooterSocial {
+	display: flex;
+}
+
+.footerFooterSocial a {
+	display: flex;
+}
